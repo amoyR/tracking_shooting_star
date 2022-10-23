@@ -1,2 +1,2 @@
 # tracking_shooting_star
-![](tracking_shooting_star.png)
+![](img/tracking_shooting_star.png)
