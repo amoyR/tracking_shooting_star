@@ -1,0 +1,31 @@
+{
+  "name": "rainworld",
+  "version": "1.0.0",
+  "description": "Enjoy the world!!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all build app",
+    "build": "webpack",
+    "app": "electron ."
+  },
+  "author": "Noa",
+  "license": "MIT",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.2.0",
+    "electron": "^13.1.1",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "dat.gui": "^0.7.9",
+    "jquery": "^3.6.1",
+    "net": "^1.0.2",
+    "three": "^0.130.1",
+    "three-orbitcontrols": "^2.110.3",
+    "three.meshline": "^1.4.0",
+    "three.proton.js": "^0.2.3"
+  }
+}
